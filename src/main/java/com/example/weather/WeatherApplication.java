@@ -32,6 +32,11 @@ public class WeatherApplication implements CommandLineRunner {
         weatherController.getWeatherForCity("Portland", "OR", "US");
         weatherController.getWeatherForCity("St Louis", "MO", "US");
         weatherController.getWeatherForCity("Miami", "FL", "US");
+        weatherController.getWeatherForCity("Bangor", "MA", "US");
+        weatherController.getWeatherForCity("Marseille", "", "France");
+        weatherController.getWeatherForCity("Berlin", "", "Germany");
+        weatherController.getWeatherForCity("Kiev", "", "Ukraine");
+        weatherController.getWeatherForCity("Kiev", "MO", "US");
     }
 }
 

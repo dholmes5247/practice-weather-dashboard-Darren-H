@@ -29,7 +29,7 @@ public class WeatherController {
 
             // If no locations were found, print an error and exit
             if (locations == null || locations.length == 0) {
-                System.out.println("City not found: " + city);
+                System.out.println("\nCITY NOT found: " + city);
                 return;
             }
 
